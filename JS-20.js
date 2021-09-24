@@ -75,7 +75,7 @@ function getSecondsToTomorrow () {
 
 alert( getSecondsToTomorrow() );
 */
-
+/*
 alert( formatDate(new Date(new Date - 1)) ); // "прямо сейчас"
 
 alert( formatDate(new Date(new Date - 30 * 1000)) ); // "30 сек. назад"
@@ -97,3 +97,4 @@ function formatDate (date) {
         return str;
     }
 }
+*/
