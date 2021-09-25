@@ -10,6 +10,7 @@ let newObj = JSON.parse(_json);
 alert(newObj.age);
 */
 
+/*
 let room = {
     number: 23
 };
@@ -29,11 +30,27 @@ alert( JSON.stringify(meetup, function replacer(key, value) {
     }
     return value;
 }));
-
-/* в результате должно быть:
-{
-    "title":"Metting",
-    "occupiedBy":[{"name":"Ivanov"},{"name":"Petrov"}],
-    "place":{"number":23}
-}
 */
+
+function sumTo (nmb) {
+    // variant with for
+    /*
+    let sum = 0;
+    for (let i = 0; i <= nmb; i++) {
+        sum += i;
+    }
+    return sum;
+    */
+
+    /* recursive metod
+    if (nmb == 1) {
+        return nmb;
+    } else {
+        return ( nmb + sumTo(nmb - 1) );
+    }
+    */
+   
+    return ((1 + nmb) / 2) * nmb
+}
+
+alert ( sumTo(100) );
