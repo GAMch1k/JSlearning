@@ -31,8 +31,9 @@ alert( JSON.stringify(meetup, function replacer(key, value) {
     return value;
 }));
 */
-
+/*
 function sumTo (nmb) {
+*/
     // variant with for
     /*
     let sum = 0;
@@ -49,8 +50,9 @@ function sumTo (nmb) {
         return ( nmb + sumTo(nmb - 1) );
     }
     */
-   
+/*
     return ((1 + nmb) / 2) * nmb
 }
 
 alert ( sumTo(100) );
+*/
