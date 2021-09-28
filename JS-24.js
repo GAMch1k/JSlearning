@@ -1,4 +1,4 @@
-function printNumbersInterval (from, to) {
+/*function printNumbersInterval (from, to) {
     setInterval (function() {
         if (from != to + 1) {
             alert(from);
@@ -15,4 +15,7 @@ function printNumbersTimeOut (from, to) {
     }
 }
 
+printNumbersInterval (1, 5);
 printNumbersTimeOut (1, 5);
+*/
+
